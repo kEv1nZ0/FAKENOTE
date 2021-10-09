@@ -1,0 +1,194 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td{margin:0;padding:0;font-size:12pt;font-family:"微软雅黑","宋体";}
+img,html{border:0;}
+body{background:#ebefef}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+.fieldShow{color:blue}
+
+/*chrome 样式定义 */
+input,button,select,textarea,div,span,td{outline:none}
+textarea{resize:none}
+input[size]{ border:1px solid #2391E7;}
+input.validatebox-invalid{ border:1px solid #FF0000;}
+input[readonly] {
+    background-color: #EEEEEE !important;
+}
+a {font-size:9pt;font-family:"微软雅黑","宋体";color: #00457D; text-decoration: none}
+a:hover {color: #FF0000; text-decoration: none;font-family:"微软雅黑","宋体"}
+textarea{box-sizing: border-box; width: 100%; overflow:auto;height:30px; padding-left:10px;padding-top:6px; margin:0;border:1px solid #3eade5; border-radius:3px; line-height:24px; color:#333; font-size:14px;font-family:"微软雅黑","宋体";}
+select {border:1px solid #3eade5; border-radius:3px; line-height:32px; color:#333; font-size:14px;padding-left:10px; }
+input{box-sizing: border-box; max-width: 100%; height:30px; padding-left:10px; border:1px solid #ebe6e5; border-radius:3px; line-height:30px; color:#333; font-size:14px;font-family:"微软雅黑","宋体";}
+form{margin:0px}
+input[type=radio],input[type=checkbox]{width: auto;border:none;line-height:14px;height:14px;font-family:"微软雅黑","宋体";}
+
+.combo{height:32px !important;padding-left:10px; border:1px solid #3eade5; border-radius:3px; line-height:32px; color:#333; font-size:14px;}
+.combo .combo-text{font-size:14px; color:#333;}
+.toptoolbar{padding:2px;border:1px solid #ddd;background:#F8F8F8;}
+.toptoolbarhr{height:2px;}
+.lschk_ie6{border:0px;height:13px;width:13px}
+.linkeytable{border-collapse:collapse;border: 1px solid #3eade5;width:100%;max-width: 100%;font-size:9pt;}
+.linkeytable td{box-sizing: border-box;border-collapse:collapse;font-size:12pt; border:1px solid #3eade5; padding:5px 10px;font-family:"微软雅黑","宋体";}
+.linkeytable td.texttd{text-align:center;background:#ddeaff;font-size:12pt;font-family:"微软雅黑","宋体";}
+
+.CollapseSubForm{color:#0099FF;padding-left:20px;cursor:pointer;background:url("") no-repeat left top}
+.ExpandSubForm{color:#0099FF;padding-left:20px;cursor:pointer;background:url("") no-repeat left top}
+.ApprovalForm{padding-top:10px}
+
+/*审批处理单样式定义*/
+.ApprovalMsg{padding-left:15px;color:#0099FF;width:90%;font-size:9pt;cursor:pointer;font-family:"微软雅黑","宋体";background:url("") no-repeat left}
+.ApprovalBottom{position: absolute;right: -145px;top: 50%;margin-top: -100px;background-color: #fff;border-radius: 8px;overflow: hidden;}
+.ApprovalBottom a{box-sizing: border-box;display: block;padding: 8px 4px;width: 85px;text-align: center;color:#333333;}
+.ApprovalBottom a + a{border-top: 1px solid #EBEFEF}
+.ApprovalBottom a:hover{color: #fff;background-color: #23A3F2;}
+.Approvaltable{border-collapse:collapse;border: 1px solid #eee;width:100%;font-size:9pt;font-family:"微软雅黑","宋体"}
+.Approvaltable td{border-collapse:collapse;border: 1px solid #eee;padding:4px;font-size:14px;font-family:"微软雅黑","宋体";color:#444;}
+.Approvaltable td.texttd{text-align:right;background:#f9f9f9;font-family:"微软雅黑","宋体";min-width:120px;color:#000;}
+.ApprovalToptable td{font-family: '微软雅黑','宋体';color: #000;position: relative;font-size: 32px;padding-bottom: 20px;}
+.ApprovalToptable td img{position: absolute;left: 0;top: 50%;margin-top: -30px;height: 50px;}
+.ApprovalToptable td b{font-weight: bold; font-size:28px;}
+.ApprovalToptable a{color: #cc3300; font-family:"微软雅黑","宋体"}
+.ApprovalToptable a:hover{text-decoration: underline;}
+.ApprovalCurNode{color:#0066cc;}
+.ApprovalTopBtn td{color:#ffffff;font-size:12px;font-weight:bold; font-family:"微软雅黑","宋体";}
+.ApprovalTopBtn a{color: #FFFFFF;font-size:12px; font-weight:bold; cursor:pointer; text-decoration:none;font-family:"微软雅黑","宋体"}
+
+/*科研单样式定义*/
+#linkeyform{position: relative;width:940px; margin:0 auto; background:#fff; padding:30px 30px 60px 30px;box-shadow: 2px 2px 2px #B0B3B3;}
+#linkeyform table{max-width: 100%;}
+#bar_v4{position:fixed;left:0px; top:0px; display:block;z-index:10;width:100%;}
+.topbar{box-sizing: border-box;background:#0060A1;height: 50px; line-height: 50px; width:1000px; margin:0 auto;padding:0 12px;overflow:hidden;color: #fff }
+#bar_v4 a{display: inline-block;height: 30px; padding: 0 12px; line-height: 30px; text-align: center;min-width: 75px;color:#333; background-color: #FFFFFF;border-radius: 4px; margin-right:16px; font-size:14px;}
+#bar_v4 a:hover{ font-weight:bold;color: #000000; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)}
+a.flowmap{background:url("") no-repeat left center; padding-left:18px;padding-right:20px;}
+#bar_v4 .leftbar{float:left;font-size: 15px;}
+#bar_v4 .rightbar{float:right;}
+#bar_v4 .submitbtn{margin-right: 0;background: #3475de;display: inline-block;height: 30px; padding: 0 12px; line-height: 30px; text-align: center;min-width: 75px;color: #fff;
+font-size: 14px; cursor:pointer;}
+#bar_v4 .submitbtn:hover{color: #fff;}
+.window{padding:0;}
+.window .window-header{background:#2d90e5;}
+.panel-title{color:#fff;line-height:34px;height:30px;font-size:14px;padding-left:10px;}
+.window .window-header .panel-tool{right:9px;}
+.window .window-body{border-width:0;}
+
+
+/*******************关注订阅消息弹框**********************/
+.follow-modal-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.65);
+    height: 100%;
+    z-index: 1000;
+}
+.follow-modal-box {
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left:50%;
+	transform:translateX(-50%) translateY(-50%);
+    width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+}
+.follow-modal-content {
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    background-color: #fff;
+}
+.follow-modal-header {
+    padding: 16px 24px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #e8e8e8;
+    background: #2d90e5;
+    color: #fff;
+}
+.follow-modal-title {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.follow-modal-close {
+    float: right;
+    cursor: pointer;
+}
+.follow-modal-body {
+    padding: 15px 30px; 
+}
+.follow-modal-body .top-tips {
+    line-height: 22px;
+}
+.follow-modal-body ul {
+    padding: 40px 20px 20px;
+    overflow: hidden;
+}
+.follow-modal-body li {
+    float: left;
+    width: 33.33%;
+    list-style-type: none;
+}
+.follow-modal-body li div {
+	position:relative;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    line-height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    background: #999;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.follow-modal-body li div.active {
+    background: #2d90e5;
+}
+.follow-modal-body li div img {
+	background: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.follow-modal-body .foot-tips {
+    line-height: 22px;
+    color: #999;
+}
+.follow-modal-footer {
+    padding: 10px 16px;
+    border-top: 1px solid #e8e8e8;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+}
+.follow-modal-footer button {
+    display: inline-block;
+    height: 32px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    line-height: 1.499;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+}
+.follow-modal-footer button:hover,
+.follow-modal-footer button:active,
+.follow-modal-footer button:focus {
+    border-color: #2d90e5;
+    color: #2d90e5;
+}
+.follow-modal-footer .btn-primary {
+    color: #fff;
+    background: #2d90e5;
+    border-color: #2d90e5;
+}
+.follow-modal-footer .btn-primary:hover,
+.follow-modal-footer .btn-primary:focus {
+    color: #fff;
+}
